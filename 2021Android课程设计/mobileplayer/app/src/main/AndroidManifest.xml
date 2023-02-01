@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sping.mobileplayer"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <!--手机权限-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /><!--读取外部存储器-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /><!--写入外部存储器-->
+    <uses-permission android:name="android.permission.INTERNET" /><!--互联网-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /><!--访问\网络\状态-->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /><!--前台服务-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <!--闪屏-->
+        <activity
+            android:name=".activity.SplashActivity"
+            android:theme="@style/launcher_theme"></activity>
+
+        <!--主界面-->
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/launcher_theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.VideoPlayerActivity"
+            android:configChanges="screenSize|orientation"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="rtsp" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:mimeType="video/mp4" />
+                <data android:mimeType="video/3gp" />
+                <data android:mimeType="video/3gpp" />
+                <data android:mimeType="video/3gpp2" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.AudioPlayerActivity"
+            android:launchMode="singleTask" />
+
+        <service android:name=".service.AudioPlayService" />
+
+    </application>
+
+</manifest>

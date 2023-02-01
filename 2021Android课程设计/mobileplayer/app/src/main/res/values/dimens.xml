@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="title_bar_height">55dp</dimen>
+    <!--高亮歌词的Text大小-->
+    <dimen name="highlight_size">20dp</dimen>
+    <!--默认歌词的大小-->
+    <dimen name="default_size">16dp</dimen>
+    <dimen name="line_space">10dp</dimen>
+    <dimen name="popupwinY">80dp</dimen>
+    <!--视频图标的大小-->
+    <dimen name="video_ic_size">48dp</dimen>
+</resources>
