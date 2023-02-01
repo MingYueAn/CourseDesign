@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="basicplayer2.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/basicplayer2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jl0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mp3spi1.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.0-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tritonus_share.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
