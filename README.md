@@ -1,37 +1,37 @@
-# CourseDesign
+cmd
 
-#### 介绍
-大学的课程设计
+git clone -b xx https://gitee.com/mingyuean/course-design.git
 
-#### 软件架构
-软件架构说明
+# 会员卡计费系统
 
+大一的课程设计，使用C++开发
 
-#### 安装教程
+### 主界面
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+![image-20230201203935907](img/image-20230201203935907.png)
 
-#### 使用说明
+### 成员登记
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+![image-20230201204137581](img/image-20230201204137581.png)
 
-#### 参与贡献
+### 续费功能
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+![image-20230201204231295](img/image-20230201204231295.png)
 
+### 消费结算
 
-#### 特技
+![image-20230201204322294](img/image-20230201204322294.png)
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+### 统计功能
+
+![image-20230201204426025](img/image-20230201204426025.png)
+
+![image-20230201204441280](img/image-20230201204441280.png)
+
+### 挂失
+
+![image-20230201204518270](img/image-20230201204518270.png)
+
+### 退出
+
+![image-20230201204554741](img/image-20230201204554741.png)
