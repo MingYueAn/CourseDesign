@@ -1,6 +1,6 @@
 cmd
 
-git clone -b xx https://gitee.com/mingyuean/course-design.git
+git clone -b vipCard https://gitee.com/mingyuean/course-design.git
 
 # 会员卡计费系统
 
